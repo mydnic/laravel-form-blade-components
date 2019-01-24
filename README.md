@@ -1,5 +1,10 @@
 # A Collection of Blade Components for Clean Forms
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/mydnic/laravel-form-blade-components.svg)](https://packagist.org/packages/mydnic/laravel-form-blade-components)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
+[![Build Status](https://img.shields.io/travis/com/mydnic/laravel-form-blade-components.svg)](https://travis-ci.com/mydnic/laravel-form-blade-components)
+[![Code Quality](https://img.shields.io/scrutinizer/g/mydnic/laravel-form-blade-components.svg)](https://scrutinizer-ci.com/g/mydnic/laravel-form-blade-components/)
+
 ## Installation
 
 You can install this package via composer using this command:
