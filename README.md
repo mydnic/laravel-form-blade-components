@@ -33,7 +33,7 @@ In your blade views you can now add form elements in a very clean way.
 
 Include an `<input>` element into your views.
 
-```html
+```blade
 @input([
     'name' => 'first_name',
     'type' => 'text',
@@ -47,7 +47,7 @@ Include an `<input>` element into your views.
 
 Include a `<textarea>` element into your views.
 
-```html
+```blade
 @textarea([
     'name' => 'description',
     'label' => 'Description',
@@ -59,7 +59,7 @@ Include a `<textarea>` element into your views.
 
 Include an `<input type="checkbox">` element into your views.
 
-```html
+```blade
 @checkbox([
     'name' => 'is_enabled',
     'label' => 'Enabled',
@@ -71,7 +71,7 @@ Include an `<input type="checkbox">` element into your views.
 
 Include a `<select>` element into your views.
 
-```html
+```blade
 @checkbox([
     'name' => 'is_enabled',
     'label' => 'Enabled',
@@ -87,7 +87,7 @@ By default the input are not filled with any value, like any empty input element
 
 You can force fill an attribute by providing a `value` like this:
 
-```html
+```blade
 @input([
     'name' => 'first_name',
     'label' => 'First Name',
@@ -99,7 +99,7 @@ You can force fill an attribute by providing a `value` like this:
 
 You can fill an input value using an object attribute by providing an `object`. This is very helpful when editing a resource.
 
-```html
+```blade
 @input([
     'name' => 'first_name',
     'label' => 'First Name',
