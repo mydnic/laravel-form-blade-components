@@ -18,7 +18,10 @@ class FormBladeComponentsServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->registerPublishing();
         }
-
+    }
+    
+    public function boot()
+    {
         $this->registerBladeComponents();
     }
 
