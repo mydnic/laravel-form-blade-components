@@ -38,7 +38,7 @@ Include an `<input>` element into your views.
     'name' => 'first_name',
     'type' => 'text',
     'label' => 'First Name',
-    'attributes' => 'required',
+    'attributes' => 'required checked max="10"',
     'placeholder' => 'Some placeholder',
 ])@endinput
 ```
