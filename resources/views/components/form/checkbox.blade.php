@@ -11,7 +11,7 @@
         @elseif (isset($object) and $object->{$name})
             checked="checked"
         @endif
-        {{ isset($attributes) ? implode(' ', array_wrap($attributes)) : '' }}
+        {{ isset($attributes) ? $attributes : '' }}
     >
     {{ $label }}
 </label>
