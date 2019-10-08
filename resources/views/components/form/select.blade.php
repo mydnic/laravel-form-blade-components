@@ -4,7 +4,7 @@
 <select class="select {{ $errors->has($name) ? 'error' : '' }}"
     id="{{$name}}"
     name="{{$name}}"
-    {{ isset($attributes) ? implode(' ', array_wrap($attributes)) : '' }}
+    {{ isset($attributes) ? $attributes : '' }}
 >
     @if (isset($placeholder))
         <option value="" disabled selected>{{ $placeholder }}</option>
