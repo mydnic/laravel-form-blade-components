@@ -18,7 +18,7 @@
         }}"
     @endif
     placeholder="{{ isset($placeholder) ? $placeholder : '' }}"
-    {{ isset($attributes) ? implode(' ', array_wrap($attributes)) : '' }}>
+    {{ isset($attributes) ? $attributes : '' }}>
 
 @if ($errors->has($name))
     <p class="helper-error">
