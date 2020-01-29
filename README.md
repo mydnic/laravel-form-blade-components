@@ -72,11 +72,12 @@ Include an `<input type="checkbox">` element into your views.
 Include a `<select>` element into your views.
 
 ```blade
-@checkbox([
-    'name' => 'is_enabled',
-    'label' => 'Enabled',
-    'object' => $user
-])@endcheckbox
+@select([
+    'name' => 'user_id',
+    'label' => 'User',
+    'object' => $user,
+    'options' => $users
+])@endselect
 ```
 
 ## Pre Filling Values
