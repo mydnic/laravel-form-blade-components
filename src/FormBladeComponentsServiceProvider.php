@@ -19,7 +19,7 @@ class FormBladeComponentsServiceProvider extends ServiceProvider
             $this->registerPublishing();
         }
     }
-    
+
     public function boot()
     {
         $this->registerBladeComponents();
@@ -27,10 +27,10 @@ class FormBladeComponentsServiceProvider extends ServiceProvider
 
     private function registerBladeComponents()
     {
-        Blade::component('components.form.input', 'input');
-        Blade::component('components.form.textarea', 'textarea');
-        Blade::component('components.form.select', 'select');
-        Blade::component('components.form.checkbox', 'checkbox');
+        Blade::aliasComponent('components.form.input', 'input');
+        Blade::aliasComponent('components.form.textarea', 'textarea');
+        Blade::aliasComponent('components.form.select', 'select');
+        Blade::aliasComponent('components.form.checkbox', 'checkbox');
     }
 
     public function registerPublishing()
