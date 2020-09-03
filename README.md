@@ -1,3 +1,9 @@
+# DEPRECATED !!!
+
+We recommend the use of https://github.com/blade-ui-kit/blade-ui-kit
+
+------------
+
 # A Collection of Blade Components for Clean Forms
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/mydnic/laravel-form-blade-components.svg)](https://packagist.org/packages/mydnic/laravel-form-blade-components)
